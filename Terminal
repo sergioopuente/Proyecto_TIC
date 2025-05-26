@@ -1,0 +1,43 @@
+Terminal
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Instale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+
+PS C:\Users\puent> cd "C:\Users\puent\Downloads\Proyecto_TIC"
+PS C:\Users\puent\Downloads\Proyecto_TIC> git remote remove origin
+PS C:\Users\puent\Downloads\Proyecto_TIC> git init
+Reinitialized existing Git repository in C:/Users/puent/Downloads/Proyecto_TIC/.git/
+PS C:\Users\puent\Downloads\Proyecto_TIC> git add .
+PS C:\Users\puent\Downloads\Proyecto_TIC> git commit -m "Versión final del proyecto TIC"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\Users\puent\Downloads\Proyecto_TIC> git branch -M main
+PS C:\Users\puent\Downloads\Proyecto_TIC> git remote add origin https://github.com/sergioopuente/Proyecto_TIC.git
+PS C:\Users\puent\Downloads\Proyecto_TIC> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/sergioopuente/Proyecto_TIC.git'
+PS C:\Users\puent\Downloads\Proyecto_TIC> git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\Users\puent\Downloads\Proyecto_TIC> echo "# Proyecto TIC" > README.md
+PS C:\Users\puent\Downloads\Proyecto_TIC> git add .
+PS C:\Users\puent\Downloads\Proyecto_TIC> git commit -m "Primer commit con archivos"
+[main (root-commit) 7af46e4] Primer commit con archivos
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+PS C:\Users\puent\Downloads\Proyecto_TIC> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 263 bytes | 263.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sergioopuente/Proyecto_TIC.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\puent\Downloads\Proyecto_TIC>
