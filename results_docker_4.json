@@ -1,0 +1,11 @@
+{
+    "idle": { "cpu": 0.01, "memory": 0.0, "time": 4.999 },
+    "cpu_stress": { "cpu": 9.2, "memory": 1.95, "time": 5.04 },
+    "cpu_multi": { "cpu": 89.9, "memory": 81.2, "time": 5.04 },
+    "memory_stress": { "cpu": 9.5, "memory": 905.0, "time": 5.00 },
+    "memory_large": { "cpu": 0.13, "memory": 0.0, "time": 4.0 },
+    "disk_write": { "cpu": 4.6, "memory": 497.0, "time": 2.01 },
+    "disk_read": { "cpu": 6.1, "memory": 475.0, "time": 1.46 },
+    "network_download": { "cpu": 2.6, "memory": 33.5, "time": 11.5 },
+    "process_spawn": { "cpu": 1.3, "memory": 0.0, "time": 0.17 }
+}
