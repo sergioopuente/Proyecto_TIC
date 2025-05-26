@@ -1,9 +1,9 @@
 ﻿# Proyecto TIC
-🧪 Comparativa de Rendimiento entre Máquinas Virtuales y Docker
+- Comparativa de Rendimiento entre Máquinas Virtuales y Docker
 
 Este repositorio contiene el proyecto realizado para la asignatura de TIC, centrado en una comparativa de rendimiento entre máquinas virtuales (VMs) ejecutadas con VirtualBox y contenedores Docker. El objetivo principal es analizar el comportamiento de ambos entornos frente a distintas cargas de trabajo.
 
-📌 Objetivo del proyecto
+- Objetivo del proyecto
 El fin de este estudio es cuantificar y comparar de forma empírica la eficiencia de las VM frente a Docker, mediante el uso de herramientas de benchmarking y análisis sistemático de datos.
 
 Objetivos específicos:
@@ -13,7 +13,7 @@ Objetivos específicos:
 * Analizar el rendimiento de red local.
 * Comparar tiempos de ejecución y consumo de recursos.
 
-⚙️ Metodología
+⚙- Metodología
 Todas las pruebas se han realizado en el mismo host físico para garantizar imparcialidad:
 
 * **CPU:** AMD Ryzen (host)
