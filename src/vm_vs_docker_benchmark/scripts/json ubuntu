@@ -1,0 +1,68 @@
+{
+    "idle": {
+        "cpu": 0.0378,
+        "memory": 0.0,
+        "time": 5.001,
+        "timestamp": "2025-05-26T21:57:54.192264",
+        "details": "Sistema en reposo sin carga adicional"
+    },
+    "cpu_stress": {
+        "cpu": 11.4193,
+        "memory": 2.2049,
+        "time": 5.1063,
+        "timestamp": "2025-05-26T21:57:54.192279",
+        "threads": 1,
+        "tool": "sysbench",
+        "command": "sysbench cpu --cpu-max-prime=2000 run"
+    },
+    "cpu_multi": {
+        "cpu": 89.2828,
+        "memory": 80.7427,
+        "time": 5.1553,
+        "timestamp": "2025-05-26T21:57:54.192287",
+        "threads": 4,
+        "tool": "stress-ng",
+        "command": "stress-ng --cpu 4 --timeout 15s"
+    },
+    "memory_stress": {
+        "cpu": 9.8035,
+        "memory": 944.8945,
+        "time": 5.0374,
+        "timestamp": "2025-05-26T21:57:54.192294",
+        "command": "stress-ng --vm 2 --vm-bytes 512M"
+    },
+    "memory_large": {
+        "cpu": 0.15,
+        "memory": 0.0,
+        "time": 4.0007
+    },
+    "disk_write": {
+        "cpu": 6.8016,
+        "memory": 514.6743,
+        "time": 2.6685,
+        "timestamp": "2025-05-26T21:57:54.192300",
+        "tool": "fio",
+        "command": "fio --name=seqwrite --rw=write --bs=1M --size=256M"
+    },
+    "disk_read": {
+        "cpu": 5.8865,
+        "memory": 472.6103,
+        "time": 1.7415,
+        "timestamp": "2025-05-26T21:57:54.192306"
+    },
+    "network_download": {
+        "cpu": 2.9418,
+        "memory": 36.1547,
+        "time": 12.238,
+        "timestamp": "2025-05-26T21:57:54.192313",
+        "tool": "iperf3",
+        "command": "iperf3 -c 127.0.0.1"
+    },
+    "process_spawn": {
+        "cpu": 1.5925,
+        "memory": 0.0,
+        "time": 0.1503,
+        "timestamp": "2025-05-26T21:57:54.192318",
+        "description": "Lanzamiento de procesos"
+    }
+}
