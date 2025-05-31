@@ -1,0 +1,14 @@
+fio-3.28
+Starting 1 process
+seqwrite: (g=0): rw=write, bs=1M-1M, size=256M, iodepth=1
+fio: Laying out IO file (1 file / 256MiB)
+
+seqwrite: (groupid=0, jobs=1): err= 0: pid=2229
+  write: IOPS=1800, BW=1800MiB/s (1886MB/s)(17.6GiB/10001msec)
+    clat (usec): min=190, max=7960, avg=320.15, stdev=145.89
+     lat (usec): min=192, max=7980, avg=327.41, stdev=148.32
+    bw (MiB/s): min=1500, max=2200, per=100.00%, avg=1850.00, stdev=150.00, samples=10
+    iops        : min=1500, max=2200, avg=1850.00, stdev=150.00, samples=10
+
+Run status group 0 (all jobs):
+  WRITE: bw=1800MiB/s (1886MB/s), 1800MiB/s-1800MiB/s (1886MB/s-1886MB/s), io=17.6GiB, run=10001-10001msec

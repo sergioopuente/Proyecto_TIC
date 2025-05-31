@@ -1,0 +1,3 @@
+stress-ng: info:  [2222] stress-ng v0.13.12 starting its 15 second run with 4 workers
+stress-ng: info:  [2222] dispatching hogs: 4 cpu, 2 vm
+stress-ng: info:  [2222] successful run completed in 15.01s

@@ -1,0 +1,20 @@
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Accepted connection from 127.0.0.1, port 49812
+[  5] local 127.0.0.1 port 5201 connected to 127.0.0.1 port 49814
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  6.88 GBytes  59.1 Gbits/sec
+[  5]   1.00-2.00   sec  6.95 GBytes  59.7 Gbits/sec
+[  5]   2.00-3.00   sec  6.94 GBytes  59.6 Gbits/sec
+[  5]   3.00-4.00   sec  6.97 GBytes  59.9 Gbits/sec
+[  5]   4.00-5.00   sec  6.91 GBytes  59.4 Gbits/sec
+[  5]   5.00-6.00   sec  6.98 GBytes  60.1 Gbits/sec
+[  5]   6.00-7.00   sec  6.95 GBytes  59.7 Gbits/sec
+[  5]   7.00-8.00   sec  6.99 GBytes  60.2 Gbits/sec
+[  5]   8.00-9.00   sec  6.92 GBytes  59.5 Gbits/sec
+[  5]   9.00-10.00  sec  6.96 GBytes  59.8 Gbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-10.00  sec  69.5 GBytes  59.7 Gbits/sec                  receiver
+-----------------------------------------------------------
