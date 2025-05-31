@@ -1,0 +1,9 @@
+root@25854f9a7511:/# iperf3 -s
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Accepted connection from 127.0.0.1, port 49656
+[  5] local 127.0.0.1 port 5201 connected to 127.0.0.1 port 49672
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-10.05  sec  71.4 GBytes  61.1 Gbits/sec  receiver
+-----------------------------------------------------------

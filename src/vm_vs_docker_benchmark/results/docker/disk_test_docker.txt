@@ -1,0 +1,9 @@
+root@25854f9a7511:/# fio --name=seqwrite --rw=write --bs=1M --size=256M --numjobs=1 --time_based --runtime=10s --group_reporting
+seqwrite: (g=0): rw=write, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=psync, iodepth=1
+fio-3.28
+Starting 1 process
+seqwrite: Laying out IO file (1 file / 256MiB)
+
+seqwrite: (groupid=0, jobs=1): err= 0: pid=912: 
+  write: IOPS=2078, BW=2078MiB/s (2179MB/s)(20.3GiB/10001msec)
+...

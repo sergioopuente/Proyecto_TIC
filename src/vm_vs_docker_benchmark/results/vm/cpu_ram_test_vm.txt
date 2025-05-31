@@ -1,0 +1,4 @@
+sergioopuente@sergioopuente:~$ stress-ng --cpu 4 --vm 2 --vm-bytes 512M --timeout 15s
+stress-ng: info:  [2462] setting to a 15 second run per stressor
+stress-ng: info:  [2462] dispatching hogs: 4 cpu, 2 vm
+stress-ng: info:  [2462] successful run completed in 15.04s

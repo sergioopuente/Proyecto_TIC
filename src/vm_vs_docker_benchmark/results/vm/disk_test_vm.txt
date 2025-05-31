@@ -1,0 +1,20 @@
+sergioopuente@sergioopuente:~$ fio --name=seqwrite --rw=write --bs=1M --size=256M --numjobs=1 --time_based --runtime=10s --group_reporting
+seqwrite: (g=0): rw=write, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=psync, iodepth=1
+fio-3.28
+Starting 1 process
+seqwrite: Laying out IO file (1 file / 256MiB)
+
+seqwrite: (groupid=0, jobs=1): err= 0: pid=912: Mon May 26 20:40:01 2025
+  write: IOPS=2078, BW=2078MiB/s (2179MB/s)(20.3GiB/10001msec); 0 zone resets
+    clat (usec): min=198, max=7956, avg=320.47, stdev=157.00
+     lat (usec): min=202, max=7976, avg=328.57, stdev=160.35
+    clat percentiles (usec):
+     |  1.00th=[  206],  5.00th=[  210], 10.00th=[  215], 20.00th=[  225],
+     | 30.00th=[  233], 40.00th=[  243], 50.00th=[  253], 60.00th=[  273],
+     | 70.00th=[  310], 80.00th=[  449], 90.00th=[  510], 95.00th=[  586],
+     | 99.00th=[  930], 99.50th=[  979], 99.90th=[ 1156], 99.95th=[ 1237],
+     | 99.99th=[ 3163]
+   bw (  MiB/s): min= 1524, max= 2384, per=100.00%, avg=2090.31, stdev=212.16, samples=19
+   iops        : min= 1524, max= 2384, avg=2090.26, stdev=212.18, samples=19
+  cpu          : usr=3.05%, sys=98.77%, ctx=395, majf=0, minf=12
+  IO depths    : 1=100.0%

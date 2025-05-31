@@ -1,0 +1,47 @@
+{
+    "idle": {
+        "cpu": 0.02,
+        "memory": 0.0,
+        "time": 5.0001
+    },
+    "cpu_stress": {
+        "cpu": 9.41,
+        "memory": 1.98,
+        "time": 5.106
+    },
+    "cpu_multi": {
+        "cpu": 90.82,
+        "memory": 80.19,
+        "time": 5.058
+    },
+    "memory_stress": {
+        "cpu": 9.75,
+        "memory": 903.2,
+        "time": 5.040
+    },
+    "memory_large": {
+        "cpu": 0.15,
+        "memory": 0.0,
+        "time": 4.000
+    },
+    "disk_write": {
+        "cpu": 4.48,
+        "memory": 500.58,
+        "time": 2.011
+    },
+    "disk_read": {
+        "cpu": 5.97,
+        "memory": 476.47,
+        "time": 1.449
+    },
+    "network_download": {
+        "cpu": 2.84,
+        "memory": 35.5,
+        "time": 11.614
+    },
+    "process_spawn": {
+        "cpu": 1.4,
+        "memory": 0.0,
+        "time": 0.159
+    }
+}
